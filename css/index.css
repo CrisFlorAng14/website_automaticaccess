@@ -1,0 +1,77 @@
+/* Estilo para opacar las tarjetas inactivas en el carrusel */
+.carousel-item:not(.active) .card {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+  
+/* En pantallas grandes, mostramos todas las tarjetas de forma estática */
+.card-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-service p{
+    font-size: 20px;
+}
+/* Color de botónes de carousel de precios */
+#btns-price button{
+    background-color: #0013ff;
+}
+/* Estilos del pie de página */
+footer , a i{
+    color: #fff;
+}
+/* Estilos de marcas utilizadas */
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10em;
+}
+@media only screen and (max-width: 1024px) {
+    .brands{
+        min-height: 7em;
+    }
+  }
+.brands img{
+    width: 90%;
+}
+/* Estilos en carousel en dispositivos pequeños */
+.img-container{
+    position: relative;
+    padding-top: 50%;
+    overflow: hidden;
+}
+.img-container img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Estilos en carousel principal */
+.p-carousel{
+    position: relative;
+    padding-top: 50%;
+    overflow: hidden;
+}
+.p-carousel img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.icons .card{
+    min-height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.icons .card i, .slogan{
+    color: #073ec9;
+}

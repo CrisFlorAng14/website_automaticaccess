@@ -1,0 +1,9 @@
+nav,footer, .card-text-title{
+    background-color: #073ec9;
+}
+#navbarNav a:hover{
+    background: #ffc906;
+}
+footer .fa-brands:hover{
+    color: #ffc906;
+}
