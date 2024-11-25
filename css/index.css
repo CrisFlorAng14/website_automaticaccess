@@ -31,7 +31,7 @@ footer , a i{
 }
 @media only screen and (max-width: 1024px) {
     .brands{
-        min-height: 7em;
+        min-height: 9em;
     }
   }
 .brands img{
