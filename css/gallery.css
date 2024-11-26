@@ -46,3 +46,14 @@
 img:hover{
     cursor: pointer;
 }
+.responsive-video {
+    width: 100%; 
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+    padding-bottom: 10px;
+}  
+.responsive-video:hover{
+    cursor: pointer;
+}

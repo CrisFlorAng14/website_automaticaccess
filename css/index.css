@@ -52,7 +52,7 @@ footer , a i{
     object-fit: cover;
 }
 /* Estilos en carousel principal */
-.p-carousel{
+.p-carousel, v{
     position: relative;
     padding-top: 50%;
     overflow: hidden;
@@ -74,4 +74,18 @@ footer , a i{
 }
 .icons .card i, .slogan{
     color: #073ec9;
+}
+
+.img-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title{
+    font-size: 1em;
+    font-weight: bold;
 }
